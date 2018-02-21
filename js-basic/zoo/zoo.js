@@ -13,7 +13,18 @@ console.log(lizard.correr())
 var pajaro = new pajaro.volador("Buho", 10)
 console.log(pajaro.volar())
 
+var list = [pug]
+function jaulasTerrestres(listaDeAnimales){
+    var listTerrestres = []
+    for (var i = 0;  i < listaDeAnimales.l; i++){
+        if (animal.raza == 'terrestre'){
+            listTerrestres.push(animal)
+        }
+    }
 
+    return listTerrestres
+}
 
+jaulasTerrestres (list)
 
 
